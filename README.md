@@ -15,7 +15,7 @@
 - **Language**: Java ☕  
 - **IDE**: IntelliJ IDEA
 - **Input Method**: `BufferedReader`, `StringTokenizer`  
-- **Output Method**: `StringBuilder`, `BufferedWriter`
+- **Output Method**: `StringBuilder`
 
 ---
 
