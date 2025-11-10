@@ -13,7 +13,7 @@
 
 ## 🛠 Language & Environment
 - **Language**: Java ☕  
-- **IDE**: IntelliJ IDEA / VS Code  
+- **IDE**: IntelliJ IDEA
 - **Input Method**: `BufferedReader`, `StringTokenizer`  
 - **Output Method**: `StringBuilder`, `BufferedWriter`
 
