@@ -39,7 +39,7 @@
 | 자료구조 | 배열 | [코드보기](./concept/array.java) |
 | 자료구조 | 스택 | [코드보기](./concept/stack.java) |
 | 자료구조 | 큐 | [코드보기](./concept/queue.java) |
-| 자료구조 | 우선순위 | [코드보기](./concept/priorityQueue.java) |
+| 자료구조 | 우선순위 큐 | [코드보기](./concept/priorityQueue.java) |
 | 알고리즘 | 재귀 | [코드보기](./concept/recursion.java) |
 | 알고리즘 | 브루트 포스 | [코드보기](./concept/bruteForce.java) |
 | 알고리즘 | 보이어 무어 | [코드보기](./concept/boyerMoore.java) |
