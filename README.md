@@ -119,7 +119,7 @@
 | 12101 | [1, 2, 3 더하기 2](https://www.acmicpc.net/problem/12101) | [코드보기](./silver/12101.java) | 조합 생성, k번째 수 |
 | 16198 | [에너지 모으기](https://www.acmicpc.net/problem/16198) | [코드보기](./silver/16198.java) | 연결리스트, 최댓값 |
 | 16987 | [계란으로 계란치기](https://www.acmicpc.net/problem/16987) | [코드보기](./gold/16987.java) | 구현, 최댓값 |
-| 7460 | [0 만들기](https://www.acmicpc.net/problem/7460) | [코드보기](./gold/7460.java) | 구현, 문자열 |
+| 7490 | [0 만들기](https://www.acmicpc.net/problem/7460) | [코드보기](./gold/7460.java) | 구현, 문자열 |
 | 2800 | [괄호 제거](https://www.acmicpc.net/problem/2800) | [코드보기](./gold/2800.java) | Stack, 비트마스킹 |
 | 2800 | [부분수열의 합 2](https://www.acmicpc.net/problem/1208) | [코드보기](./gold/1208.java) | 이분탐색, 집합과 맵 |
 
