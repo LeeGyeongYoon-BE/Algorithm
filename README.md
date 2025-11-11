@@ -80,6 +80,10 @@
 | 11660 | [구간 합 구하기 5](https://www.acmicpc.net/problem/11660) | [코드보기](./백준/Silver/11660. 구간 합 구하기 5) | 누적 합, DP |
 | 10986 | [나머지 합](https://www.acmicpc.net/problem/10986) | [코드보기](./백준/Gold/10986. 나머지 합) | 누적 합 |
 | 2018 | [수들의 합 5](https://www.acmicpc.net/problem/2018) | [코드보기](./백준/Silver/2018. 수들의 합 5) | 두 포인터 |
+| 1929 | [소수 구하기](https://www.acmicpc.net/problem/1929) | [코드보기](./백준/Silver/1929. 소수 구하기) | 소수 판정, 에라토스테네스의 체 |
+| 1456 | [거의 소수](https://www.acmicpc.net/problem/1456) | [코드보기](./백준/Gold/1456. 거의 소수) | 소수 판정, 에라토스테네스의 체 |
+| 1747 | [소수&팰린드롬](https://www.acmicpc.net/problem/1747) | [코드보기](./백준/Silver/1747. 소수＆팰린드롬) | 소수 판정, 에라토스테네스의 체, 브루트포스 알고리즘 |
+| 1016 | [제곱 ㄴㄴ 수](https://www.acmicpc.net/problem/1016) | [코드보기](./백준/Gold/1016. 제곱 ㄴㄴ 수) | 소수 판정, 에라토스테네스의 체 |
 
 ---
 
@@ -120,6 +124,7 @@
 | 번호 | 문제 | 코드 | 주요 개념 |
 |------|------|------|-----------|
 | 2343 | [기타 레슨](https://www.acmicpc.net/problem/2343) | [코드보기](./백준/Gold/2343. 기타 레슨) | 이분 탐색, 매개 변수 탐색 |
+| 1300 | [K번째 수](https://www.acmicpc.net/problem/1300) | [코드보기](./백준/Gold/1300. K번째 수) | 이분 탐색, 매개 변수 탐색 |
 
 ---
 
@@ -148,3 +153,14 @@
 | 1260 | [DFS와 BFS](https://www.acmicpc.net/problem/1260) | [코드보기](./백준/Silver/1260. DFS와 BFS) | BFS, DFS |
 | 2178 | [미로 탐색](https://www.acmicpc.net/problem/2178) | [코드보기](./백준/Silver/2178. 미로 탐색) | BFS, 격자 그래프 |
 | 1167 | [트리의 지름](https://www.acmicpc.net/problem/1167) | [코드보기](./백준/Gold/1167. 트리의 지름) | BFS, 트리의 지름 |
+
+---
+
+### 🔍 알고리즘(Algorithm)
+| 번호 | 문제 | 코드 | 주요 개념 |
+|------|------|------|-----------|
+| 11047 | [동전 0](https://www.acmicpc.net/problem/11047) | [코드보기](./백준/Silver/11047. 동전 0) | 그리디 알고리즘 |
+| 1715 | [카드 정렬하기](https://www.acmicpc.net/problem/1715) | [코드보기](./백준/Gold/1715. 카드 정렬하기) | 그리디 알고리즘, 우선순위 큐 |
+| 1744 | [수 묶기](https://www.acmicpc.net/problem/1744) | [코드보기](./백준/Gold/1744. 수 묶기) | 정렬, 많은 조건 분기 |
+| 1931 | [회의실 배정](https://www.acmicpc.net/problem/1931) | [코드보기](./백준/Gold/1931. 회의실 배정) | 그리디 알고리즘, 정렬 |
+| 1541 | [잃어버린 괄호](https://www.acmicpc.net/problem/1541) | [코드보기](./백준/Silver/1541. 잃어버린 괄호) | 그리디 알고리즘, 문자열, 파싱 |
