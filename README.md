@@ -94,6 +94,8 @@
 | 11399 | [ATM](https://www.acmicpc.net/problem/11399) | [코드보기](./백준/Silver/11399. ATM) | Greedy |
 | 11004 | [K번째 수](https://www.acmicpc.net/problem/11004) | [코드보기](./백준/Silver/11004. K번째 수) | 구현 |
 | 2751 | [수 정렬하기 2](https://www.acmicpc.net/problem/2751) | [코드보기](./백준/Silver/2751. 수 정렬하기 2) | 구현 |
+| 1253 | [좋다](https://www.acmicpc.net/problem/1253) | [코드보기](./백준/Gold/1253. 좋다) | 이분 탐색, 두 포인터 |
+| 2252 | [줄 세우기](https://www.acmicpc.net/problem/2252) | [코드보기](./백준/Gold/2252. 줄 세우기) | 방향 비순환 그래프, 위상 정렬 |
 
 ---
 
@@ -122,6 +124,7 @@
 | 7490 | [0 만들기](https://www.acmicpc.net/problem/7460) | [코드보기](./백준/Gold/7490. 0 만들기) | 구현, 문자열 |
 | 2800 | [괄호 제거](https://www.acmicpc.net/problem/2800) | [코드보기](./백준/Gold/2800. 괄호 제거) | Stack, 비트마스킹 |
 | 1208 | [부분수열의 합 2](https://www.acmicpc.net/problem/1208) | [코드보기](./백준/Gold/1208. 부분수열의 합 2) | 이분탐색, 집합과 맵 |
+| 13023 | [ABCDE](https://www.acmicpc.net/problem/13023) | [코드보기](./백준/Gold/13023. ABCDE) | 그래프 탐색, DFS |
 
 ---
 
