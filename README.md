@@ -22,10 +22,51 @@
 ## 📚 분류별 정리
 
 ### 🧠 개념 (Concept)
-| 개념 | 코드 |
-|------|------|
-| 재귀 | [코드보기](./concept/recursion.java) |
-| 정렬 | [코드보기](./concept/sort.java) |
+| 목차 | 개념 | 코드 |
+|------|------|------|
+| 수학 | 소수 구하기 | [코드보기](./concept/primeNumber.java) |
+| 수학 | 에라토스테네스의 체 | [코드보기](./concept/sieveOfEratosthenes.java) |
+| 수학 | 유클리드 호제법 | [코드보기](./concept/euclid.java) |
+| 수학 | 조합 | [코드보기](./concept/Combination.java) |
+| 수학 | 순열 | [코드보기](./concept/Permutation.java) |
+| 수학 | 부분 집합 | [코드보기](./concept/subset.java) |
+| 정렬 | 거품 정렬 | [코드보기](./concept/bubbleSort.java) |
+| 정렬 | 선택 정렬 | [코드보기](./concept/selectionSort.java) |
+| 정렬 | 삽입 정렬 | [코드보기](./concept/insertionSort.java) |
+| 정렬 | 퀵 정렬 | [코드보기](./concept/quickSort.java) |
+| 정렬 | 병합 정렬 | [코드보기](./concept/mergeSort.java) |
+| 정렬 | 기수 정렬 | [코드보기](./concept/radixSort.java) |
+| 자료구조 | 배열 | [코드보기](./concept/array.java) |
+| 자료구조 | 스택 | [코드보기](./concept/stack.java) |
+| 자료구조 | 큐 | [코드보기](./concept/queue.java) |
+| 자료구조 | 우선순위 | [코드보기](./concept/priorityQueue.java) |
+| 알고리즘 | 재귀 | [코드보기](./concept/recursion.java) |
+| 알고리즘 | 브루트 포스 | [코드보기](./concept/bruteForce.java) |
+| 알고리즘 | 보이어 무어 | [코드보기](./concept/boyerMoore.java) |
+| 알고리즘 | KMP | [코드보기](./concept/KMP.java) |
+| 알고리즘 | 그리디 알고리즘 | [코드보기](./concept/greedy.java) |
+| 알고리즘 | 누적 합 | [코드보기](./concept/prefixSum.java) |
+| 알고리즘 | 슬라이딩 윈도우 | [코드보기](./concept/slidingWindow.java) |
+| 알고리즘 | 투 포인터 | [코드보기](./concept/twoPointer.java) |
+| 알고리즘 | 이분 탐색 | [코드보기](./concept/binarySearch.java) |
+| 알고리즘 | 그래프 | [코드보기](./concept/graph.java) |
+| 알고리즘 | DFS | [코드보기](./concept/DFS.java) |
+| 알고리즘 | BFS | [코드보기](./concept/BFS.java) |
+| 알고리즘 | 백 트래킹 | [코드보기](./concept/backTracking.java) |
+| 알고리즘 | 분할 정복 | [코드보기](./concept/divideConquer.java) |
+| 알고리즘 | 동적 기획 | [코드보기](./concept/dynamicProgramming.java) |
+| 알고리즘 | 좌표 압축 | [코드보기](./concept/coordinateCompression.java) |
+| 알고리즘 | 비트마스크 | [코드보기](./concept/bitMask.java) |
+| 알고리즘 | 유니온 파인드 | [코드보기](./concept/unionFind.java) |
+| 알고리즘 | 위상 정렬 | [코드보기](./concept/topologySort.java) |
+| 최단 경로 | 다익스트라 | [코드보기](./concept/dijkstra.java) |
+| 최단 경로 | 벨만 포드 | [코드보기](./concept/bellmanFord.java) |
+| 최단 경로 | 플로이드 워셜 | [코드보기](./concept/floydWarshall.java) |
+| 최소 신장 트리 | 크루스칼 | [코드보기](./concept/kruskal.java) |
+| 최소 신장 트리 | 프림 | [코드보기](./concept/prim.java) |
+| 세그먼트 트리 | 세그먼트 트리 | [코드보기](./concept/segmentTree.java) |
+| 최장 증가 수열 | 최장 증가 수열 | [코드보기](./concept/LIS.java) |
+| Tree DP | Tree DP | [코드보기](./concept/treeDP.java) |
 
 ---
 
