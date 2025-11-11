@@ -14,7 +14,9 @@ public class Main {
         for (int i = 0; i < n; i++) {
         	result += Integer.parseInt(input[i]);
         } // for
+		
         System.out.println(result);
+		br.close();
 	} // main
 
 } // class
