@@ -36,7 +36,6 @@
 | 정렬 | 퀵 정렬 | [코드보기](./concept/quickSort.java) |
 | 정렬 | 병합 정렬 | [코드보기](./concept/mergeSort.java) |
 | 정렬 | 기수 정렬 | [코드보기](./concept/radixSort.java) |
-| 자료구조 | 배열 | [코드보기](./concept/array.java) |
 | 자료구조 | 스택 | [코드보기](./concept/stack.java) |
 | 자료구조 | 큐 | [코드보기](./concept/queue.java) |
 | 자료구조 | 우선순위 큐 | [코드보기](./concept/priorityQueue.java) |
