@@ -96,6 +96,9 @@
 | 2751 | [수 정렬하기 2](https://www.acmicpc.net/problem/2751) | [코드보기](./백준/Silver/2751. 수 정렬하기 2) | 구현 |
 | 1253 | [좋다](https://www.acmicpc.net/problem/1253) | [코드보기](./백준/Gold/1253. 좋다) | 이분 탐색, 두 포인터 |
 | 2252 | [줄 세우기](https://www.acmicpc.net/problem/2252) | [코드보기](./백준/Gold/2252. 줄 세우기) | 방향 비순환 그래프, 위상 정렬 |
+| 1517 | [버블 소트](https://www.acmicpc.net/problem/1517) | [코드보기](./백준/Platinum/1517. 버블 소트) | 세그먼트 트리, 분할 정복 |
+| 10989 | [수 정렬하기 3](https://www.acmicpc.net/problem/10989) | [코드보기](./백준/Bronze/10989. 수 정렬하기 3) | 정렬 |
+| 1920 | [수 찾기](https://www.acmicpc.net/problem/1920) | [코드보기](./백준/Silver/1920. 수 찾기) | 이분 탐색, 집합과 맵, 해시 |
 
 ---
 
@@ -113,6 +116,13 @@
 
 ---
 
+### 🔍 탐색 (Backtracking)
+| 번호 | 문제 | 코드 | 주요 개념 |
+|------|------|------|-----------|
+| 2343 | [기타 레슨](https://www.acmicpc.net/problem/2343) | [코드보기](./백준/Gold/2343. 기타 레슨) | 이분 탐색, 매개 변수 탐색 |
+
+---
+
 ### 🔍 백트래킹 (Backtracking)
 | 번호 | 문제 | 코드 | 주요 개념 |
 |------|------|------|-----------|
@@ -125,6 +135,7 @@
 | 2800 | [괄호 제거](https://www.acmicpc.net/problem/2800) | [코드보기](./백준/Gold/2800. 괄호 제거) | Stack, 비트마스킹 |
 | 1208 | [부분수열의 합 2](https://www.acmicpc.net/problem/1208) | [코드보기](./백준/Gold/1208. 부분수열의 합 2) | 이분탐색, 집합과 맵 |
 | 13023 | [ABCDE](https://www.acmicpc.net/problem/13023) | [코드보기](./백준/Gold/13023. ABCDE) | 그래프 탐색, DFS |
+| 2023 | [신기한 소수](https://www.acmicpc.net/problem/2023) | [코드보기](./백준/Gold/2023. 신기한 소수) | 소수 판정 |
 
 ---
 
@@ -133,3 +144,7 @@
 |------|------|------|-----------|
 | 1753 | [최단경로](https://www.acmicpc.net/problem/1753) | [코드보기](./백준/Gold/1753. 최단경로) | 다익스트라 |
 | 1197 | [최소 스패닝 트리](https://www.acmicpc.net/problem/1197) | [코드보기](./백준/Gold/1197. 최소 스패닝 트리) | Kruskal |
+| 11724 | [연결 요소의 개수](https://www.acmicpc.net/problem/11724) | [코드보기](./백준/Silver/11724. 연결 요소의 개수) | BFS, DFS |
+| 1260 | [DFS와 BFS](https://www.acmicpc.net/problem/1260) | [코드보기](./백준/Silver/1260. DFS와 BFS) | BFS, DFS |
+| 2178 | [미로 탐색](https://www.acmicpc.net/problem/2178) | [코드보기](./백준/Silver/2178. 미로 탐색) | BFS, 격자 그래프 |
+| 1167 | [트리의 지름](https://www.acmicpc.net/problem/1167) | [코드보기](./백준/Gold/1167. 트리의 지름) | BFS, 트리의 지름 |
