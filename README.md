@@ -84,6 +84,12 @@
 | 1456 | [거의 소수](https://www.acmicpc.net/problem/1456) | [코드보기](./백준/Gold/1456. 거의 소수) | 소수 판정, 에라토스테네스의 체 |
 | 1747 | [소수&팰린드롬](https://www.acmicpc.net/problem/1747) | [코드보기](./백준/Silver/1747. 소수＆팰린드롬) | 소수 판정, 에라토스테네스의 체, 브루트포스 알고리즘 |
 | 1016 | [제곱 ㄴㄴ 수](https://www.acmicpc.net/problem/1016) | [코드보기](./백준/Gold/1016. 제곱 ㄴㄴ 수) | 소수 판정, 에라토스테네스의 체 |
+| 11689 | [GCD(n, k) = 1](https://www.acmicpc.net/problem/11689) | [코드보기](./백준/Gold/11689. GCD（n， k） ＝ 1) | 오일러 피 함수 |
+| 1934 | [최소공배수](https://www.acmicpc.net/problem/1934) | [코드보기](./백준/Gold/11689. GCD（n， k） ＝ 1) | 유클리드 호제법 |
+| 1850 | [최대공약수](https://www.acmicpc.net/problem/1850) | [코드보기](./백준/Gold/11689. GCD（n， k） ＝ 1) | 유클리드 호제법 |
+| 1033 | [칵테일](https://www.acmicpc.net/problem/1033) | [코드보기](./백준/Gold/11689. GCD（n， k） ＝ 1) | 유클리드 호제법, 그래프 탐색 |
+| 11050 | [이항 계수 1](https://www.acmicpc.net/problem/11050) | [코드보기](./백준/Gold/11689. GCD（n， k） ＝ 1) | 구현, 조합론 |
+| 11051 | [이항 계수 2](https://www.acmicpc.net/problem/11051) | [코드보기](./백준/Gold/11689. GCD（n， k） ＝ 1) | 다이나믹 프로그래밍, 조합론 |
 
 ---
 
@@ -117,6 +123,11 @@
 | 17298 | [오큰수](https://www.acmicpc.net/problem/17298) | [코드보기](./백준/Gold/17298. 오큰수) | Stack |
 | 2164 | [카드2](https://www.acmicpc.net/problem/2164) | [코드보기](./백준/Silver/2164. 카드2) | Queue |
 | 11286 | [절댓값 힙](https://www.acmicpc.net/problem/11286) | [코드보기](./백준/Silver/11286. 절댓값 힙) | Priority Queue |
+| 1717 | [집합의 표현](https://www.acmicpc.net/problem/1717) | [코드보기](./백준/Silver/11286. 절댓값 힙) | 분리 집합 |
+| 14425 | [문자열 집합](https://www.acmicpc.net/problem/14425) | [코드보기](./백준/Silver/11286. 절댓값 힙) | 문자열, 집합과 맵, 해시, 트리 |
+| 2042 | [구간 합 구하기](https://www.acmicpc.net/problem/2042) | [코드보기](./백준/Silver/11286. 절댓값 힙) | 세그먼트 트리 |
+| 10868 | [최솟값](https://www.acmicpc.net/problem/10868) | [코드보기](./백준/Silver/11286. 절댓값 힙) | 세그먼트 트리, 희소 배열 |
+| 11505 | [구간 곱 구하기](https://www.acmicpc.net/problem/11505) | [코드보기](./백준/Silver/11286. 절댓값 힙) | 세그먼트 트리 |
 
 ---
 
@@ -141,6 +152,7 @@
 | 1208 | [부분수열의 합 2](https://www.acmicpc.net/problem/1208) | [코드보기](./백준/Gold/1208. 부분수열의 합 2) | 이분탐색, 집합과 맵 |
 | 13023 | [ABCDE](https://www.acmicpc.net/problem/13023) | [코드보기](./백준/Gold/13023. ABCDE) | 그래프 탐색, DFS |
 | 2023 | [신기한 소수](https://www.acmicpc.net/problem/2023) | [코드보기](./백준/Gold/2023. 신기한 소수) | 소수 판정 |
+| 1948 | [임계경로](https://www.acmicpc.net/problem/1948) | [코드보기](./백준/Gold/2023. 신기한 소수) | 방향 비순환 그래프, 위상 정렬 |
 
 ---
 
@@ -153,6 +165,26 @@
 | 1260 | [DFS와 BFS](https://www.acmicpc.net/problem/1260) | [코드보기](./백준/Silver/1260. DFS와 BFS) | BFS, DFS |
 | 2178 | [미로 탐색](https://www.acmicpc.net/problem/2178) | [코드보기](./백준/Silver/2178. 미로 탐색) | BFS, 격자 그래프 |
 | 1167 | [트리의 지름](https://www.acmicpc.net/problem/1167) | [코드보기](./백준/Gold/1167. 트리의 지름) | BFS, 트리의 지름 |
+| 18352 | [특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352) | [코드보기](./백준/Gold/1167. 트리의 지름) | BFS, 최단 경로, 다익스트라 |
+| 1325 | [효율적인 해킹](https://www.acmicpc.net/problem/1325) | [코드보기](./백준/Gold/1167. 트리의 지름) | BFS, DFS |
+| 1707 | [이분 그래프](https://www.acmicpc.net/problem/1707) | [코드보기](./백준/Gold/1167. 트리의 지름) | BFS, DFS, 이분 그래프 |
+| 2251 | [물통](https://www.acmicpc.net/problem/2251) | [코드보기](./백준/Gold/1167. 트리의 지름) | BFS, DFS |
+| 1976 | [여행 가자](https://www.acmicpc.net/problem/1976) | [코드보기](./백준/Silver/11286. 절댓값 힙) | 분리 집합 |
+| 1043 | [거짓말](https://www.acmicpc.net/problem/1043) | [코드보기](./백준/Silver/11286. 절댓값 힙) | 분리 집합 |
+| 1916 | [최소비용 구하기](https://www.acmicpc.net/problem/1916) | [코드보기](./백준/Silver/11286. 절댓값 힙) | 최단 경로, 다익스트라 |
+| 1854 | [K번째 최단경로 찾기](https://www.acmicpc.net/problem/1854) | [코드보기](./백준/Silver/11286. 절댓값 힙) | 최단 경로, 다익스트라, 우선순위 큐 |
+| 11657 | [타임머신](https://www.acmicpc.net/problem/11657) | [코드보기](./백준/Silver/11286. 절댓값 힙) | 최단 경로, 벨만-포드 |
+| 1219 | [오민식의 고민](https://www.acmicpc.net/problem/1219) | [코드보기](./백준/Silver/11286. 절댓값 힙) | 최단 경로, 벨만-포드 |
+| 11403 | [경로 찾기](https://www.acmicpc.net/problem/11403) | [코드보기](./백준/Silver/11286. 절댓값 힙) | 최단 경로, 플로이드-워셜 |
+| 11404 | [플로이드](https://www.acmicpc.net/problem/11404) | [코드보기](./백준/Silver/11286. 절댓값 힙) | 최단 경로, 플로이드-워셜 |
+| 1389 | [케빈 베이컨의 6단계 법칙](https://www.acmicpc.net/problem/1389) | [코드보기](./백준/Silver/11286. 절댓값 힙) | BFS, 최단 경로, 플로이드-워셜 |
+| 17472 | [다리 만들기 2](https://www.acmicpc.net/problem/17472) | [코드보기](./백준/Silver/11286. 절댓값 힙) | 브루트포스 알고리즘, BFS, DFS, MST |
+| 1414 | [불우이웃돕기](https://www.acmicpc.net/problem/1414) | [코드보기](./백준/Silver/11286. 절댓값 힙) | 문자열, MST |
+| 11725 | [트리의 부모 찾기](https://www.acmicpc.net/problem/11725) | [코드보기](./백준/Silver/11286. 절댓값 힙) | BFS, DFS |
+| 1068 | [트리](https://www.acmicpc.net/problem/1068) | [코드보기](./백준/Silver/11286. 절댓값 힙) | DFS |
+| 1991 | [트리 순회](https://www.acmicpc.net/problem/1991) | [코드보기](./백준/Silver/11286. 절댓값 힙) | 재귀 |
+| 11437 | [LCA](https://www.acmicpc.net/problem/11437) | [코드보기](./백준/Silver/11286. 절댓값 힙) | 트리, 최소 공통 조상 |
+| 11438 | [LCA 2](https://www.acmicpc.net/problem/11438) | [코드보기](./백준/Silver/11286. 절댓값 힙) | 트리, 최소 공통 조상, 희소 배열 |
 
 ---
 
@@ -164,3 +196,12 @@
 | 1744 | [수 묶기](https://www.acmicpc.net/problem/1744) | [코드보기](./백준/Gold/1744. 수 묶기) | 정렬, 많은 조건 분기 |
 | 1931 | [회의실 배정](https://www.acmicpc.net/problem/1931) | [코드보기](./백준/Gold/1931. 회의실 배정) | 그리디 알고리즘, 정렬 |
 | 1541 | [잃어버린 괄호](https://www.acmicpc.net/problem/1541) | [코드보기](./백준/Silver/1541. 잃어버린 괄호) | 그리디 알고리즘, 문자열, 파싱 |
+
+---
+
+### 🔍 동적 계획법(Dynamic Programmin)
+| 번호 | 문제 | 코드 | 주요 개념 |
+|------|------|------|-----------|
+| 1516 | [게임 개발](https://www.acmicpc.net/problem/1516) | [코드보기](./백준/Silver/11047. 동전 0) | 방향 비순환 그래프, 위상 정렬 |
+
+
