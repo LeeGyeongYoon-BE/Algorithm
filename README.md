@@ -89,7 +89,17 @@
 | 1850 | [최대공약수](https://www.acmicpc.net/problem/1850) | [코드보기](./백준/Gold/11689. GCD（n， k） ＝ 1) | 유클리드 호제법 |
 | 1033 | [칵테일](https://www.acmicpc.net/problem/1033) | [코드보기](./백준/Gold/11689. GCD（n， k） ＝ 1) | 유클리드 호제법, 그래프 탐색 |
 | 11050 | [이항 계수 1](https://www.acmicpc.net/problem/11050) | [코드보기](./백준/Gold/11689. GCD（n， k） ＝ 1) | 구현, 조합론 |
-| 11051 | [이항 계수 2](https://www.acmicpc.net/problem/11051) | [코드보기](./백준/Gold/11689. GCD（n， k） ＝ 1) | 다이나믹 프로그래밍, 조합론 |
+| 11051 | [이항 계수 2](https://www.acmicpc.net/problem/11051) | [코드보기](./백준/Gold/11689. GCD（n， k） ＝ 1) | DP, 조합론 |
+| 2775 | [부녀회장이 될테야](https://www.acmicpc.net/problem/2775) | [코드보기](./백준/Gold/11689. GCD（n， k） ＝ 1) | DP |
+| 1010 | [다리 놓기](https://www.acmicpc.net/problem/1010) | [코드보기](./백준/Gold/11689. GCD（n， k） ＝ 1) | DP, 조합론 |
+| 13251 | [조약돌 꺼내기](https://www.acmicpc.net/problem/13251) | [코드보기](./백준/Gold/11689. GCD（n， k） ＝ 1) | 조합론, 확률론 |
+| 1722 | [순열의 순서](https://www.acmicpc.net/problem/1722) | [코드보기](./백준/Gold/11689. GCD（n， k） ＝ 1) | 구현, 조합론 |
+| 1256 | [사전](https://www.acmicpc.net/problem/1256) | [코드보기](./백준/Gold/11689. GCD（n， k） ＝ 1) | DP, 조합론, 백트래킹 |
+| 1947 | [선물 전달](https://www.acmicpc.net/problem/1947) | [코드보기](./백준/Gold/11689. GCD（n， k） ＝ 1) | DP, 조합론 |
+| 1328 | [고층 빌딩](https://www.acmicpc.net/problem/1328) | [코드보기](./백준/Gold/11689. GCD（n， k） ＝ 1) | DP, 조합론 |
+| 11758 | [CCW](https://www.acmicpc.net/problem/11758) | [코드보기](./백준/Gold/1300. K번째 수) | 기하학 |
+| 17387 | [선분 교차 2](https://www.acmicpc.net/problem/17387) | [코드보기](./백준/Gold/1300. K번째 수) | 기하학, 많은 조건 분기, 선분 교차 판정 |
+| 2166 | [다각형의 면적](https://www.acmicpc.net/problem/2166) | [코드보기](./백준/Gold/1300. K번째 수) | 기하학, 다각형의 넓이 |
 
 ---
 
@@ -128,6 +138,7 @@
 | 2042 | [구간 합 구하기](https://www.acmicpc.net/problem/2042) | [코드보기](./백준/Silver/11286. 절댓값 힙) | 세그먼트 트리 |
 | 10868 | [최솟값](https://www.acmicpc.net/problem/10868) | [코드보기](./백준/Silver/11286. 절댓값 힙) | 세그먼트 트리, 희소 배열 |
 | 11505 | [구간 곱 구하기](https://www.acmicpc.net/problem/11505) | [코드보기](./백준/Silver/11286. 절댓값 힙) | 세그먼트 트리 |
+| 2162 | [선분 그룹](https://www.acmicpc.net/problem/2162) | [코드보기](./백준/Gold/1300. K번째 수) | 기하학, 분리 집합, 선분 교차 판정 |
 
 ---
 
@@ -136,6 +147,7 @@
 |------|------|------|-----------|
 | 2343 | [기타 레슨](https://www.acmicpc.net/problem/2343) | [코드보기](./백준/Gold/2343. 기타 레슨) | 이분 탐색, 매개 변수 탐색 |
 | 1300 | [K번째 수](https://www.acmicpc.net/problem/1300) | [코드보기](./백준/Gold/1300. K번째 수) | 이분 탐색, 매개 변수 탐색 |
+| 14003 | [가장 긴 증가하는 부분 수열 5](https://www.acmicpc.net/problem/14003) | [코드보기](./백준/Gold/1300. K번째 수) | 이분 탐색, 백트래킹, 가장 긴 증가하는 부분 수열 |
 
 ---
 
@@ -203,5 +215,14 @@
 | 번호 | 문제 | 코드 | 주요 개념 |
 |------|------|------|-----------|
 | 1516 | [게임 개발](https://www.acmicpc.net/problem/1516) | [코드보기](./백준/Silver/11047. 동전 0) | 방향 비순환 그래프, 위상 정렬 |
-
-
+| 1463 | [1로 만들기](https://www.acmicpc.net/problem/1463) | [코드보기](./백준/Silver/11047. 동전 0) | DP |
+| 14501 | [퇴사](https://www.acmicpc.net/problem/14501) | [코드보기](./백준/Silver/11047. 동전 0) | 브루트포스 알고리즘 |
+| 2193 | [이친수](https://www.acmicpc.net/problem/2193) | [코드보기](./백준/Silver/11047. 동전 0) | DP |
+| 11726 | [2Xn 타일링](https://www.acmicpc.net/problem/11726) | [코드보기](./백준/Silver/11047. 동전 0) | DP |
+| 10844 | [쉬운 계단 수](https://www.acmicpc.net/problem/10844) | [코드보기](./백준/Silver/11047. 동전 0) | DP |
+| 13398 | [연속합 2](https://www.acmicpc.net/problem/13398) | [코드보기](./백준/Silver/11047. 동전 0) | DP |
+| 9252 | [LCS 2](https://www.acmicpc.net/problem/9252) | [코드보기](./백준/Silver/11047. 동전 0) | 문자열, 백트래킹, 최장 공통 부분 수열 |
+| 1915 | [가장 큰 정사각형](https://www.acmicpc.net/problem/1915) | [코드보기](./백준/Silver/11047. 동전 0) | DP |
+| 2342 | [Dance Dance Revolution](https://www.acmicpc.net/problem/2342) | [코드보기](./백준/Silver/11047. 동전 0) | DP |
+| 11049 | [행렬 곱셈 순서](https://www.acmicpc.net/problem/11049) | [코드보기](./백준/Silver/11047. 동전 0) | DP |
+| 2089 | [외판원 순회](https://www.acmicpc.net/problem/2098) | [코드보기](./백준/Silver/11047. 동전 0) | 비트마스킹, 외판원 순회 |
