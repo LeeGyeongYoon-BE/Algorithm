@@ -1,0 +1,26 @@
+import java.io.*;
+import java.nio.file.Path;
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int N = Integer.parseInt(br.readLine());
+        int[] alpValue = new int[26];
+        while (N-- > 0) {
+            char[] word = br.readLine().toCharArray();
+            int placeValue = 1;
+            for(int i = word.length - 1; i >= 0; i--) {
+                alpValue[word[i] - 'A'] += placeValue;
+                placeValue *= 10;
+            }
+        }
+        Arrays.sort(alpValue);
+
+        int ans = 0;
+        for (int i = 0; i < 10; i++) {
+            ans += alpValue[25 - i] * (9 - i);
+        }
+        System.out.println(ans);
+    }
+}
