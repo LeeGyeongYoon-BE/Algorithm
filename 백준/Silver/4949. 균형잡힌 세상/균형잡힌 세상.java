@@ -1,45 +1,48 @@
 import java.io.*;
 import java.util.*;
 
-class Main
-{
-    static boolean isMatch(char open, char close){
-        if (open == '(' && close == ')'){
-            return true;
-        }
-        if (open == '[' && close == ']'){
-            return true;
-        }
-        return false;
-    }
-    public static void main (String[] args) throws IOException {
+public class Main {
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         while (true) {
-            char[] input = br.readLine().toCharArray();
-            if (input.length == 1 && input[0] == '.'){
-                break;
-            }
-            char[] opened = new char[input.length];
-            int topIndex = -1;
-            boolean isValid = true;
-            for (char ch : input){
-                if (ch == '(' || ch == '['){
-                    opened[++topIndex] = ch;
-                } else if (ch == ')' || ch == ']') {
-                    if (topIndex < 0 || !isMatch(opened[topIndex--], ch)){
-                        isValid = false;
+            String line = br.readLine();
+            if (line.equals(".")) {
+                break; // 입력 종료
+            } // if
+
+            Stack<Character> stack = new Stack<>();
+            boolean isBalanced = true;
+
+            for (int i = 0; i < line.length(); i++) {
+                char c = line.charAt(i);
+
+                if (c == '(' || c == '[') {
+                    stack.push(c);
+                } else if (c == ')') {
+                    if (!stack.isEmpty() && stack.peek() == '(') {
+                        stack.pop();
+                    } else {
+                        isBalanced = false;
                         break;
-                    }
-                }
-            }
-            if (topIndex >= 0){
-                isValid = false;
-            }
-            System.out.println(isValid? "yes" : "no");
+                    } // if ~ else
+                } else if (c == ']') {
+                    if (!stack.isEmpty() && stack.peek() == '[') {
+                        stack.pop();
+                    } else {
+                        isBalanced = false;
+                        break;
+                    } // if ~ else
+                } // if ~ else
+            } // for
 
-        }
+            if (stack.isEmpty() && isBalanced) {
+                System.out.println("YES");
+            } else {
+                System.out.println("NO");
+            } // if ~ else
+        } // while
 
-    }
-}
+        br.close();
+    } // main
+} // class
