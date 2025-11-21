@@ -1,43 +1,53 @@
 import java.io.*;
 import java.util.*;
+
 public class Main {
+    static int N, M, count;
+    static ArrayList<Integer>[] graph;
     static boolean[] visited;
-    static ArrayList<Integer>[] A;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-        int n = Integer.parseInt(st.nextToken());
-        int m = Integer.parseInt(st.nextToken());
-        visited = new boolean[n+1];
-        A = new ArrayList[n+1];
-        for (int i = 1; i <= n; i++) {
-            A[i] = new ArrayList<Integer>();
-        }
-        for (int i = 0; i < m; i++) {
+        N = Integer.parseInt(st.nextToken());
+        M = Integer.parseInt(st.nextToken());
+
+        graph = new ArrayList[N + 1];
+        visited = new boolean[N + 1];
+        for (int i = 1; i <= N; i++) {
+            graph[i] = new ArrayList<>();
+        } // for
+
+        for (int i = 0; i < M; i++) {
             st = new StringTokenizer(br.readLine());
-            int s = Integer.parseInt(st.nextToken());
-            int e = Integer.parseInt(st.nextToken());
-            A[s].add(e);
-            A[e].add(s);
-        }
-        int count = 0;
-        for (int i = 1; i <= n; i++) {
+            int start = Integer.parseInt(st.nextToken());
+            int end = Integer.parseInt(st.nextToken());
+            graph[start].add(end);
+            graph[end].add(start);
+        } // for
+
+        for (int i = 1; i <= N; i++) {
+            Collections.sort(graph[i]);
+        } // for
+
+        count = 0;
+        for (int i = 1; i <= N; i++) {
             if (!visited[i]) {
                 count++;
-                DFS(i);
-            }
-        }
+                dfs(i);
+            } // if
+        } // for
+
         System.out.println(count);
-    }
-    private static void DFS(int v) {
-        if (visited[v]) {
-            return;
-        }
+        br.close();
+    } // main
+
+    private static void dfs(int v) {
         visited[v] = true;
-        for (int i : A[v]) {
+        for (int i : graph[v]) {
             if (!visited[i]) {
-                DFS(i);
-            }
-        }
-    }
-}
+                dfs(i);
+            } // if
+        } // for
+    } // dfs
+
+} // class
