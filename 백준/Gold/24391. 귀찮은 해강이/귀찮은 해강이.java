@@ -2,51 +2,54 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
-    static int[] nodes;
-
-    private static void union(int n1, int n2) {
-        int pointer1 = find(n1);
-        int pointer2 = find(n2);
-        nodes[pointer1] = nodes[pointer2];
+    static int N, M;
+    static int[] parent;
+    private static void union(int a, int b) {
+        a = find(a);
+        b = find(b);
+        if (b != a) {
+            parent[b] = a;
+        } // if
     } // union
 
-    private static int find(int n) {
-        if (nodes[n] == n) return n;
-        return nodes[n] = find(nodes[n]);
+    private static int find(int node){
+        if (node == parent[node]){
+            return node;
+        } // if
+
+        return parent[node] = find(parent[node]);
     } // find
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-        int N = Integer.parseInt(st.nextToken());
-        int M = Integer.parseInt(st.nextToken());
-        nodes = new int[N + 1];
-        for (int i = 1; i <= N; i++) {
-            nodes[i] = i;
-        } // for
+        N = Integer.parseInt(st.nextToken());
+        M = Integer.parseInt(st.nextToken());
+        parent = new int[N + 1];
+        for (int i = 1; i <= N; i++) parent[i] = i;
 
-        for (int i = 0; i < M; i++) {
+        while (M --> 0) {
             st = new StringTokenizer(br.readLine());
-            int n1 = Integer.parseInt(st.nextToken());
-            int n2 = Integer.parseInt(st.nextToken());
-            union(n1, n2);
-        } // for
+            int a = Integer.parseInt(st.nextToken());
+            int b = Integer.parseInt(st.nextToken());
+            union(a, b);
+        } // while
 
-        int[] schedule = new int[N];
         st = new StringTokenizer(br.readLine());
-        for (int i = 0; i < N; i++) {
-            schedule[i] = Integer.parseInt(st.nextToken());
-        } // for
-
         int count = 0;
+        int target = find(Integer.parseInt(st.nextToken()));
         for (int i = 0; i < N - 1; i++) {
-            if ( find(schedule[i]) != find(schedule[i+1])) {
+            int next = Integer.parseInt(st.nextToken());
+            if (find(next) != target) {
                 count++;
+                target = find(next);
             } // if
         } // for
 
         System.out.println(count);
+
         br.close();
     } // main
+
 
 } // class
