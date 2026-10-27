@@ -1,6 +1,4 @@
 import java.util.Scanner;
-import java.math.BigDecimal;
-import java.math.RoundingMode;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,9 +7,16 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        BigDecimal result = BigDecimal.valueOf(a)
-                .divide(BigDecimal.valueOf(b), 20, RoundingMode.DOWN);
+        System.out.print(a / b + ".");
 
-        System.out.println(result);
+        a %= b;
+
+        int count = 0;
+        while (count < 20) {
+            a *= 10;
+            System.out.print(a / b);
+            a %= b;
+            count++;
+        }
     }
 }
